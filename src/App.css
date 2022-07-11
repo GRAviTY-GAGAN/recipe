@@ -7,47 +7,57 @@
   box-sizing: border-box;
 }
 
-body{
+/* body{
   margin-bottom: 100px;
+} */
+
+.ot-container {
+  margin-top: 2.8rem;
+  margin-left: 14.8rem;
+  margin-right: 14.8rem;
+  /* min-width: 360px; */
 }
 
 .h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 63.98px; 
-  margin-top: 49px;
-  margin-left: 236px;
+  /* font-size: 48px; */
+  font-size: 3rem;
+  line-height: 63.98px;
 }
 
 .container {
   margin-top: 34px;
-  max-width: 969px;
+  /* max-width: 969px; */
   max-height: 470px;
-  margin-left: 234px;
+  /* margin-left: 234px; */
 }
 
 .p{
   margin-top: 12px;
-  margin-left: 261px;
-  margin-right: 587px;
+  /* margin-left: 261px; */
+  /* margin-right: 587px; */
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   display: inline-block;
-  max-width: 590px;
+  /* max-width: 590px; */
+  max-width: 37rem;
   color: #4F4F4F;
 }
 
 .cake {
   margin-top: 17px;
-  max-height: 470px;
+  max-height: 65vh;
+  width: 100%;
+  border-radius: 12px;
+  /* width: 68vw; */
 }
 
 .ingredients {
-  margin-left: 236px;
+  /* margin-left: 236px; */
   /* margin-top: 46px; */
 font-family: 'Playfair Display';
 font-style: normal;
@@ -56,8 +66,16 @@ font-size: 24px;
 line-height: 32px;
 }
 
+.instructions {
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+
 .crust {
-  margin-left: 237px;
+  /* margin-left: 237px; */
   margin-top: 32px;
   font-family: 'Playfair Display';
 font-style: italic;
@@ -68,8 +86,8 @@ line-height: 24px;
 
 .list {
   margin-top: 32px;
-  margin-left: 235px;
-  max-width: 554px;
+  /* margin-left: 235px; */
+  max-width: 35rem;
 }
 
 .list-items {
@@ -78,6 +96,7 @@ line-height: 24px;
   /* font-style: italic; */
   line-height: 20px;
   font-weight: normal;
+  font-size: 16px;
 }
 
 .box {
@@ -97,11 +116,12 @@ line-height: 24px;
 
 .outer-container{
   display: flex;
-  margin-top: 70px;
+  justify-content: space-between;
+  margin-top: 45px;
 }
 
 .small-container{
-  margin-left: 195px;
+  /* margin-left: 195px; */
   height: 367px;
 width: 216px;
 left: 984px;
@@ -111,4 +131,278 @@ border-radius: 12px;
 background: #FFFFFF;
 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 border-radius: 12px;
+}
+
+.ins-cont{
+  margin-top: 28px;
+}
+
+.num-box {
+  display: inline-block;
+  /* border: 1px solid #828282; */
+  /* padding: 18px; */
+  max-width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  margin-right: 17px;
+  background: #F2994A;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.num{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding: 0 13px;
+  /* padding-right: 102px; */
+}
+
+.footer{
+  /* margin-left: 236px; */
+  margin-top: 57px;
+}
+
+.fitem1 {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #BDBDBD;
+
+}
+
+.fitem2 {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-top: 93px;
+  margin-bottom: 24px;
+}
+
+.material-symbols-outlined {
+  /* padding-bottom: 20px; */
+  /* margin-right: 14px; */
+  margin-right: 0.9rem;
+  color: #F2994A;
+  font-size: 2.2rem;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.sc-items{
+  display: flex;
+  /* margin-top: 40px; */
+  margin-top: 2.5rem;
+  /* margin-left: 43.88px; */
+  margin-left: 2.76rem;
+}
+
+.sc-item1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+  margin-top: 3px;
+}
+
+.sc-item2 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #F2994A;
+}
+
+.sc-list {
+  margin-top: 60px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .outer-container{
+    display: grid;
+    grid-template-areas: 
+    'aside'
+    'main'
+    'div';
+    margin-top: 0%;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+
+  .small-container {
+    display: inline-block;
+    width: 80%;
+    margin: 10% 0;
+  }
+
+  .cake{
+    /* margin: 10%; */
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .ot-container{
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+
+  .small-container {
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+    margin: 1rem 0;
+  }
+
+  .sc-list {
+    display: grid;
+    grid-template-areas: 
+    'first first first'
+    'second third fourth';
+    /* grid-template-columns: 100% 30% 30% 30%; */
+    grid-auto-rows: minmax(50px, auto);
+    margin: auto;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+  
+  #first{
+    grid-area: first;
+  }
+
+  #second{
+    grid-area: second;
+  }
+
+  #third{
+    grid-area: third;
+  }
+
+  #fourth{
+    grid-area: fourth;
+  }
+  
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .ot-container{
+    margin-top: 32px;
+  }
+
+  main{
+    width: 100%;
+  }
+
+  .p{
+    max-width: 100%;
+  }
+
+  .list {
+    max-width: 100%;
+  }
+
+  .item {
+    margin-top: 3px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  
+  .sc-items{
+    margin-left: 0%;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .h1 {
+    font-size: 24px;
+  }
+
+  .p{
+    font-size: 12px;
+    margin-top: 0;
+  }
+
+  .sc-items {
+    margin-top: 20px;
+  }
+
+  .sc-item1{
+    font-size: 8px;
+  }
+
+  .sc-item2{
+    font-size: 10px;
+  }
+
+  .ingredients {
+    font-size: 18px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 30px;
+  }
+
+  .crust {
+    font-size: 16px;
+    margin-top: 13px;
+  }
+
+  .cheesecake {
+    margin-top: 42px;
+  }
+  
+  .list-items {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .instructions-list-items {
+    font-size: 16px;
+  }
+
+  .instructions-item {
+    margin-top: 30px;
+  }
+
+  .cake{
+    margin-top: 0;
+    height: 32vh;
+  }
+
+  .fitem1 {
+    font-size: 12px;
+  }
+
+  .fitem2 {
+    margin-top: 129px;
+  }
+
+  .footer {
+    margin-top: 26px;
+  }
 }

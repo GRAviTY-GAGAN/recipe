@@ -5,7 +5,7 @@ const ingredients = () => {
 
     return(
         <div className="outer-container">
-            <div>
+            <main>
                 <h1 className="ingredients">Ingredients</h1>
                 <p className="crust">Graham Cracker Crust</p>
                 <div className="list">
@@ -23,7 +23,7 @@ const ingredients = () => {
                     </div>
                 </div>
 
-                <p className="crust">Graham Cracker Crust</p>
+                <p className="crust cheesecake">Cheesecake</p>
                 <div className="list">
                     <div className="item">
                         <div className="box"/>
@@ -54,10 +54,39 @@ const ingredients = () => {
                         <label className="list-items">topping suggestions: salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce (recipe in notes) </label> <br/>
                     </div>
                 </div>
-            </div>
-            <div className="small-container">
-                <h1></h1>
-            </div>
+            </main>
+            <aside className="small-container">
+                <div className="sc-list">
+                    <div className="sc-items" id="first">
+                        <span className="material-symbols-outlined">local_dining</span>
+                        <div>
+                            <p className="sc-item1">Yields</p>
+                            <p className="sc-item2">12 servings</p>
+                        </div>
+                    </div>
+                    <div className="sc-items" id="second">
+                        <span className="material-symbols-outlined" style={{color: "#4F4F4F"}}>schedule</span>
+                        <div>
+                            <p className="sc-item1">Prep TIme</p>
+                            <p className="sc-item2" style={{color: "#333333"}}>45 minutes</p>
+                        </div>
+                    </div>
+                    <div className="sc-items" id="third">
+                        <span className="material-symbols-outlined" style={{color: "#4F4F4F"}}>schedule</span>
+                        <div>
+                            <p className="sc-item1">Cook Time</p>
+                            <p className="sc-item2" style={{color: "#333333"}}>1 hour</p>
+                        </div>
+                    </div>
+                    <div className="sc-items" id="fourth">
+                        <span className="material-symbols-outlined" style={{color: "#4F4F4F"}}>schedule</span>
+                        <div >
+                            <p className="sc-item1">Total Time</p>
+                            <p className="sc-item2" style={{color: "#333333"}}>7,75 hours</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
         </div>
     );
 }
