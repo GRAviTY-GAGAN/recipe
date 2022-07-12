@@ -101,7 +101,7 @@ line-height: 24px;
   font-size: 16px;
 }
 
-.box {
+/* .box {
   display: inline-block;
   border: 1px solid #828282;
   padding: 10px;
@@ -109,6 +109,16 @@ line-height: 24px;
   height: 21px;
   border-radius: 4px;
   margin-right: 17px;
+  font-size: 20px;
+} */
+
+input.box {
+  border: 1px solid rgb(130, 130, 130);
+  box-sizing: border-box;
+  border-radius: 4px;
+  min-width: 1.3rem;
+  min-height: 1.3rem;
+  margin-right: 1rem;
 }
 
 .item {
