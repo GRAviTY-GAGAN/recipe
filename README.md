@@ -34,5 +34,5 @@
 
 ## Contact
 
-- Website [your-website.com](https://gagan-portfolio.netlify.app/)
-- GitHub [@your-username](https://github.com/GRAviTY-GAGAN)
+- Website [My website](https://gagan-portfolio.netlify.app/)
+- GitHub [Github](https://github.com/GRAviTY-GAGAN)
