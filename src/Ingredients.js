@@ -15,11 +15,11 @@ const ingredients = () => {
                     </div>
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">5 Tablespoons (70g) unsalted butter, melted</label> <br/>
+                        <label className="list-items">5 Tablespoons (70g) <strong>unsalted butter</strong>, melted</label> <br/>
                     </div>
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">1/4 cup (50g) granulated sugar</label> <br/>
+                        <label className="list-items">1/4 cup (50g) <strong>granulated sugar</strong></label> <br/>
                     </div>
                 </div>
 
@@ -27,31 +27,31 @@ const ingredients = () => {
                 <div className="list">
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">four 8-ounce blocks (904g) full-fat cream cheese, softened to room temperature</label> <br />
+                        <label className="list-items">four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>, softened to room temperature</label> <br />
                     </div>
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">1 cup (200g) granulated sugar</label> <br/>
+                        <label className="list-items">1 cup (200g) <strong>granulated sugar</strong></label> <br/>
                     </div>
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">1 cup (240g) full-fat sour cream, at room temperature</label> <br/>
+                        <label className="list-items">1 cup (240g) full-fat <strong>sour cream</strong>, at room temperature</label> <br/>
                     </div>
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">1 teaspoon pure vanilla extract</label> <br/>
+                        <label className="list-items">1 teaspoon <strong>pure vanilla extract</strong></label> <br/>
                     </div>
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">2 teaspoons fresh lemon juice (optional, but recommended)</label> <br/>
+                        <label className="list-items">2 teaspoons <strong>fresh lemon juice</strong> (optional, but recommended)</label> <br/>
                     </div>
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">3 large eggs, at room temperature</label> <br/>
+                        <label className="list-items">3 large <strong>eggs</strong>, at room temperature</label> <br/>
                     </div>
                     <div className="item">
                         <div className="box"/>
-                        <label className="list-items">topping suggestions: salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce (recipe in notes) </label> <br/>
+                        <label className="list-items">topping suggestions: <em style ={{fontWeight: "500"}}>salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</em> (recipe in notes) </label> <br/>
                     </div>
                 </div>
             </main>
